@@ -1,12 +1,25 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "jaskerv-plugins",
-  "description": "A collection of Claude Code plugins by jaskerv",
   "owner": {
     "name": "jaskerv",
     "email": "jono2496@gmail.com"
   },
+  "metadata": {
+    "description": "A collection of Claude Code plugins by jaskerv"
+  },
   "plugins": [
+    {
+      "name": "hermes-tweet",
+      "description": "Native Hermes Agent X/Twitter plugin for read-first social research and approval-gated publishing workflows",
+      "version": "0.1.6",
+      "author": {
+        "name": "Xquik",
+        "url": "https://github.com/Xquik-dev"
+      },
+      "source": "./plugins/hermes-tweet",
+      "category": "workflow",
+      "strict": false
+    },
     {
       "name": "vtsls-lsp",
       "description": "TypeScript/JavaScript language server (VTSLS) for enhanced code intelligence in Claude Code",

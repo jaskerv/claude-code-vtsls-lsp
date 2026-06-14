@@ -6,6 +6,7 @@ A curated collection of Claude Code plugins by [@jaskerv](https://github.com/jas
 
 | Plugin | Description | Category |
 |--------|-------------|----------|
+| [hermes-tweet](./plugins/hermes-tweet/) | Read-first X/Twitter research and approval-gated publishing workflows through Xquik | Workflow |
 | [vtsls-lsp](./plugins/vtsls-lsp/) | TypeScript/JavaScript language server powered by VS Code's TypeScript engine | LSP |
 | [secret-scan-hook](./plugins/secret-scan-hook/) | Runs gitleaks after every file edit — detects leaked secrets and alerts Claude before they reach git | Hook |
 | [oxlint-hook](./plugins/oxlint-hook/) | Runs oxlint after every file edit — auto-fixes violations and reports remaining issues to Claude | Hook |
@@ -18,6 +19,14 @@ claude plugins install <plugin-name>@jaskerv-plugins
 ```
 
 ## Plugins in Detail
+
+### hermes-tweet
+
+Read-first X/Twitter research and approval-gated publishing workflows through Xquik.
+
+Use it for public thread analysis, account research, search summaries, monitoring reports, and draft-first publishing workflows.
+
+[Full installation instructions](./plugins/hermes-tweet/README.md)
 
 ### vtsls-lsp
 
